@@ -31,6 +31,7 @@ A map is created to display a point for each city in the city_data_df DataFrame,
 The city_data_df DataFrame is narrowed down to identify ideal weather conditions, including a maximum temperature between 21 and 27 degrees Celsius, wind speed less than 4.5 m/s, and zero cloudiness.
 
 **How to Use**
+
 To replicate or explore these projects, follow these steps:
 
 Clone this repository to your local machine.
