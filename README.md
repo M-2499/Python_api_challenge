@@ -3,25 +3,26 @@
 **WeatherPy and VacationPy Readme** 
 
 **Introduction:**
-
-This repository contains the deliverables for the WeatherPy and VacationPy tasks. This project involve the analysis and visualization of weather data for various cities around the world by using several tools and libraries . The tasks are divided into two main parts: WeatherPy and VacationPy.
+This project involves the analysis and visualization of weather data for various cities around the world by using several tools and libraries. The tasks are divided into two main parts: WeatherPy and VacationPy.
 
 **Part 1: WeatherPy**
 In this part, a Python script is utilized to visualize weather data from over 500 cities located at varying distances from the equator. The citipy Python library and the OpenWeatherMap API are employed, along with problem-solving skills, to create a representative model of weather patterns across cities.
 
-**Part 2: VacationPy**
-The VacationPy deliverable involves using the skills developed in the first part to plan future vacations based on weather data. The project utilizes Jupyter notebooks, the geoViews Python library, and the Geoapify API to create map visualizations that assist in identifying ideal vacation destinations.
-
-**Part 1: WeatherPy**
-Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
+**Requirement 1- Create Plots to Showcase the Relationship Between Weather Variables and Latitude**
 Weather data is retrieved from the cities list using the OpenWeatherMap API. A series of scatter plots is generated to showcase the following relationships:
 
 Latitude vs. Temperature
 Latitude vs. Humidity
 Latitude vs. Cloudiness
 Latitude vs. Wind Speed
-Requirement 2: Compute Linear Regression for Each Relationship
+
+**Requirement 2- Compute Linear Regression for Each Relationship**
+
 Linear regression is computed for each relationship, with separate plots for the Northern and Southern Hemispheres. Scatter plots are generated, complete with linear regression lines, model formulas, and r values.
+
+**Part 2: VacationPy**
+The VacationPy deliverable involves using the skills developed in the first part to plan future vacations based on weather data. The project utilizes Jupyter notebooks, the geoViews Python library, and the Geoapify API to create map visualizations that assist in identifying ideal vacation destinations.
+
 
 **Part 2: VacationPy**
 In this part, vacation planning based on weather data is carried out using the Geoapify API and the geoViews Python library.
